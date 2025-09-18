@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import {BARTLogo, STEMTutoringLogo, UCMLogo} from './assets'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import BARTLogo from './assets/BARTLogo.png'
+import UCMLogo from './assets/UCMLogo.png'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
 
