@@ -26,15 +26,3 @@
     transform: rotate(360deg);
   }
 } */
-
-@keyframes floating {
-  0%, 100% { transform: translateY(-5%); }
-  50% { transform: translateY(0); }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: floating 5s -1s infinite;
-    /* animation: logo-spin infinite 20s linear; */
-  }
-}
