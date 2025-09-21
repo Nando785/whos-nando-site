@@ -26,3 +26,24 @@
     transform: rotate(360deg);
   }
 } */
+
+/*  ==================================================
+    Parallax Effect 
+    ================================================== */
+
+.header {
+  position: fixed;
+  width:100%;
+  height:auto;
+  top:0;
+  left:0;
+  background-image: url("./assets/HeaderBackground.svg");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
+}
+
+.header-content {
+  position: relative;
+  
+}
