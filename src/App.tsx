@@ -1,9 +1,9 @@
-import BARTLogo from './assets/BARTLogo.png'
-import UCMLogo from './assets/UCMLogo.png'
-import STEMLogo from './assets/STEMTutoringLogo.png'
+// import BARTLogo from './assets/BARTLogo.png'
+// import UCMLogo from './assets/UCMLogo.png'
+// import STEMLogo from './assets/STEMTutoringLogo.png'
 import './App.css'
 
-import JobCard from './components/job-card'
+// import JobCard from './components/job-card'
 
 function App() {
 
@@ -16,13 +16,13 @@ function App() {
       </div>
 
       <div>
-        <JobCard
+        {/* <JobCard
             imageSrc={BARTLogo}
             title="Full-Stack Development Intern"
             description="Built a full-stack Django application that used TensorFlow and OpenCV to analyze BART track footage and automatically detect infrastructure defects. Designed RESTful APIs connecting a custom-trained CNN to the frontend, delivering a seamless and reliable user experience. Collaborated with a six-person team to prototype a system that improved inspection efficiency and accuracy."
           />
 
-          {/* <JobCard
+          <JobCard
             imageSrc={STEMLogo}
             title="Computer Science & Engineering Tutor"
             description="Tutored undergraduate computer science students in both lower- and upper-division courses, covering core topics across Python, C, and C++. Specialized in breaking down complex concepts like data structures, memory management, and algorithms into clear, approachable explanations."
