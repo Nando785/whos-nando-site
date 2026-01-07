@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height:100vh;
 }
 
 .logo {
@@ -11,32 +12,39 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+/* .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
-@keyframes logo-spin {
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+/*  ==================================================
+    Parallax Effect 
+    ================================================== */
+
+.header {
+  position: fixed;
+  width:100%;
+  height:auto;
+  top:0;
+  left:0;
+  background-image: url("./assets/HeaderBackground.svg");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.header-content {
+  position: relative;
+  
 }
